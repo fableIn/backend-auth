@@ -1,4 +1,4 @@
-# FastAPI Backend Skeleton (v3)
+# FastAPI Backend Skeleton (v1)
 
 A production‑ready FastAPI starter with:
 
