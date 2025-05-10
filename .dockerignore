@@ -9,7 +9,5 @@ __pycache__
 .git
 tests
 .md
-
+.github
 alembic
-
-docker-compose.yml
