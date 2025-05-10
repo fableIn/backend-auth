@@ -1,12 +1,11 @@
 from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
-import os
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "Fable"
     SECRET_KEY: str
     DB_USER: str
-    DB_PASSWORD: str
+    DB_PASSWD: str
     DB_HOST: str
     DB_PORT: int
     DB_NAME: str
