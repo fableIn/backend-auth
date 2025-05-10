@@ -1,6 +1,7 @@
 from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+// креды
 class Settings(BaseSettings):
     PROJECT_NAME: str = "Fable"
     SECRET_KEY: str
